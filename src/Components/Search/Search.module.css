@@ -1,0 +1,21 @@
+.search {
+  width: 100%;
+  max-width: 600px;
+  padding: 15px 30px;
+  margin: 0 auto;
+  grid-column: span 12;
+}
+.form input {
+  width: 100%;
+  background: #ebebeb;
+  color: #111517;
+  border: none;
+  font-size: 14px;
+  border-radius: 0.25rem;
+  margin: 20px auto;
+  padding: 15px 20px;
+  display: block;
+}
+.form input:focus-visible {
+  outline: none;
+}
