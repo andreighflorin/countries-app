@@ -1,0 +1,33 @@
+.card {
+  width: 100%;
+  max-width: 280px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: #fbfbfb;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 3px 3px;
+  grid-column: span 12;
+}
+.image {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  max-height: 120px;
+  display: block;
+}
+.name {
+  font-weight: 700;
+}
+.details {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .card {
+    grid-column: span 6;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .card {
+    grid-column: span 3;
+  }
+}
