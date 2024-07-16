@@ -1,0 +1,12 @@
+.header {
+  background: #fff;
+  color: #111517;
+  padding: 5px 0;
+  box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 3px 3px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+h2 {
+  grid-column: span 12;
+  text-align: center;
+}
